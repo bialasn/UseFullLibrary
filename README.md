@@ -3,6 +3,8 @@
 
 The library contains a collection of Kotlin extensions that are often repeated in projects.
 
+**Current version: 1.0.0**
+
 **How to add:**
 
 **Step 1.** Add the JitPack repository to your build file
