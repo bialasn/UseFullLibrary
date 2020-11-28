@@ -2,11 +2,9 @@ package com.nbprog.usefullextensionlib
 
 import android.os.Bundle
 import android.util.Log
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.nbprog.usefullextensionlibrary.dp
-import com.nbprog.usefullextensionlibrary.hideKeyboard
-import com.nbprog.usefullextensionlibrary.px
-import com.nbprog.usefullextensionlibrary.showKeyboard
+import com.nbprog.usefullextensionlibrary.*
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -16,7 +14,6 @@ class MainActivity : AppCompatActivity() {
 
         setShowHideOnClickListener()
         convertTestLog()
-
     }
 
 
@@ -28,6 +25,7 @@ class MainActivity : AppCompatActivity() {
             it.hideKeyboard()
         }
     }
+
 
     private fun convertTestLog() {
         Log.i("convert Int to dp", 10.dp.toString())
