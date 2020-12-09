@@ -9,9 +9,6 @@ val String.containsDigit: Boolean
 val String.isAlphanumeric: Boolean
     get() = matches(Regex("[A-Za-z0-9]*"))
 
-val String.hasLettersAndDigits: Boolean
-    get() = containsLatinLetter && containsDigit
-
 val String.isIntegerNumber: Boolean
     get() = toIntOrNull() != null
 

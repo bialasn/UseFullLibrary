@@ -16,7 +16,6 @@ class MainActivity : AppCompatActivity() {
         convertTestLog()
     }
 
-
     private fun setShowHideOnClickListener() {
         showKeyboard.setOnClickListener {
             it.showKeyboard()
@@ -25,7 +24,6 @@ class MainActivity : AppCompatActivity() {
             it.hideKeyboard()
         }
     }
-
 
     private fun convertTestLog() {
         Log.i("convert Int to dp", 10.dp.toString())
