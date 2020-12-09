@@ -17,7 +17,7 @@ The library contains a collection of Kotlin extensions that are often repeated i
 
 **Step 2.** Add the dependency
 
-	        implementation 'com.github.bialasn:UseFullLibrary:1.0.0'
+	        implementation 'com.github.bialasn:UseFullLibrary:1.0.1'
 
 
 **What we have now.** 
